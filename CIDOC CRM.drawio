@@ -1,62 +1,114 @@
-<mxfile host="app.diagrams.net" modified="2022-05-06T21:35:40.063Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="hSxjr7TsYfGLIYU4fbd5" version="18.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-06T22:24:28.172Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="bOxH4p9PQf53wzyoW37Y" version="18.0.0" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="913" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1179" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="z1EBOcEIEcNwOvusTDca-19" value="E5 Event" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="520" y="20" width="100" height="40" as="geometry" />
+        <mxCell id="z1EBOcEIEcNwOvusTDca-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=8;entryX=0.43;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="z1EBOcEIEcNwOvusTDca-19" target="z1EBOcEIEcNwOvusTDca-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="590" y="310" />
+              <mxPoint x="678" y="310" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="z1EBOcEIEcNwOvusTDca-20" value="&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;participation de personnes et présence de choses&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="60" width="100" height="100" as="geometry" />
+        <mxCell id="z1EBOcEIEcNwOvusTDca-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=8;" edge="1" parent="1" source="z1EBOcEIEcNwOvusTDca-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="190" />
+              <mxPoint x="220" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z1EBOcEIEcNwOvusTDca-19" value="E5 Event" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="520" y="180" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z1EBOcEIEcNwOvusTDca-20" value="&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;&lt;div title=&quot;Page 62&quot; class=&quot;page&quot;&gt;&lt;div class=&quot;layoutArea&quot;&gt;&lt;div class=&quot;column&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-size: 7pt;&quot;&gt;E5 Event&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 7pt;&quot;&gt;This class comprises distinct, delimited and coherent processes and interactions of a material&lt;br&gt;nature, in cultural, social or physical systems, involving and affecting instances of E77&lt;br&gt;Persistent Item in a way characteristic of the kind of process. Typical examples are meetings,&lt;br&gt;births, deaths, actions of decision taking, making or inventing things, but also more complex&lt;br&gt;and extended ones such as conferences, elections, building of a castle, or battles.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;		&lt;/div&gt;&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="560" width="330" height="170" as="geometry" />
         </mxCell>
         <mxCell id="z1EBOcEIEcNwOvusTDca-25" value="&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;&lt;/div&gt;E53 Place" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="690" y="360" width="100" height="40" as="geometry" />
+          <mxGeometry x="635" y="400" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="z1EBOcEIEcNwOvusTDca-26" value="&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;géographique ou relatif, lié aux entités temporelles mais aussi aux objets, aux acteurs&lt;/div&gt;&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="690" y="400" width="100" height="100" as="geometry" />
+        <mxCell id="z1EBOcEIEcNwOvusTDca-26" value="&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;&lt;br&gt;		&lt;br&gt;	&lt;br&gt;&lt;div title=&quot;Page 88&quot; class=&quot;page&quot;&gt;&lt;div class=&quot;layoutArea&quot;&gt;&lt;div class=&quot;column&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-size: 7pt;&quot;&gt;E53 Place&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 7pt;&quot;&gt;This class comprises extents in the natural space we live in, in particular on the surface of the&lt;br&gt;E&lt;/span&gt;&lt;span style=&quot;font-size: 7pt; color: rgb(46, 151, 211);&quot;&gt;e&lt;/span&gt;&lt;span style=&quot;font-size: 7pt;&quot;&gt;arth, in the pure sense of physics: independent from temporal phenomena and matter. They&lt;br&gt;may serve describing the physical location of things or phenomena or other areas of interest.&lt;br&gt;Geometrically, instances of E53 Place constitute single contiguous areas or a finite aggregation&lt;br&gt;of disjoint areas in space which are each individually contiguous. The y may have fuzzy&lt;br&gt;boundaries.&lt;/span&gt;&lt;/p&gt;					&lt;p&gt;&lt;span style=&quot;font-size: 7pt;&quot;&gt;The instances of E53 Place are usually determined by reference to the position of “immobile”&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 7pt;&quot;&gt;objects such as buildings, cities, mountains, rivers, or dedicated geodetic marks, but may also&lt;br&gt;be determined by reference to mobile objects&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;br&gt;				&lt;/div&gt;&lt;br&gt;			&lt;/div&gt;&lt;br&gt;		&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="760" width="260" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="z1EBOcEIEcNwOvusTDca-27" value="&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;E39 Agent&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="225" y="195" width="100" height="40" as="geometry" />
+        <mxCell id="z1EBOcEIEcNwOvusTDca-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="z1EBOcEIEcNwOvusTDca-27" target="z1EBOcEIEcNwOvusTDca-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="30" y="200" />
+              <mxPoint x="30" y="500" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="z1EBOcEIEcNwOvusTDca-28" value="&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;entités qui effectuent intentionnellement des actions, interagissent avec objets conceptuels ou choses matérielles&amp;nbsp;&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="225" y="235" width="100" height="130" as="geometry" />
+        <mxCell id="z1EBOcEIEcNwOvusTDca-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=8;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="z1EBOcEIEcNwOvusTDca-27" target="z1EBOcEIEcNwOvusTDca-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="200" />
+              <mxPoint x="370" y="410" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="z1EBOcEIEcNwOvusTDca-30" value="&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;P53 : has former or current location&lt;/div&gt;&lt;/div&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="435" y="550" width="240" height="60" as="geometry" />
+        <mxCell id="z1EBOcEIEcNwOvusTDca-27" value="&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;E21 Person&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="50" y="170" width="155" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="z1EBOcEIEcNwOvusTDca-32" value="P11 had participant" style="shape=associativeEntity;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="490" y="190" width="140" height="60" as="geometry" />
+        <mxCell id="z1EBOcEIEcNwOvusTDca-28" value="&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;&lt;div title=&quot;Page 75&quot; class=&quot;page&quot;&gt;&lt;div class=&quot;layoutArea&quot;&gt;&lt;div class=&quot;column&quot;&gt;E21 Person&lt;/div&gt;&lt;div class=&quot;column&quot;&gt;&lt;br&gt;					&lt;p&gt;&lt;span style=&quot;font-size: 7pt;&quot;&gt;This class comprises real persons who live or are assumed to have lived.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;		&lt;/div&gt;&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="570" width="170" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="z1EBOcEIEcNwOvusTDca-35" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 [&amp;quot;ul&amp;quot;,null,&amp;quot;li&amp;quot;,{&amp;quot;style&amp;quot;:null,&amp;quot;checked&amp;quot;:null,&amp;quot;value&amp;quot;:null,&amp;quot;displayValue&amp;quot;:null,&amp;quot;backgroundColor&amp;quot;:null,&amp;quot;color&amp;quot;:null,&amp;quot;listStyleType&amp;quot;:null}]&quot;&gt;E19 Physical Object&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="420" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="z1EBOcEIEcNwOvusTDca-36" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 [&amp;quot;ul&amp;quot;,null,&amp;quot;li&amp;quot;,{&amp;quot;style&amp;quot;:null,&amp;quot;checked&amp;quot;:null,&amp;quot;value&amp;quot;:null,&amp;quot;displayValue&amp;quot;:null,&amp;quot;backgroundColor&amp;quot;:null,&amp;quot;color&amp;quot;:null,&amp;quot;listStyleType&amp;quot;:null}]&quot;&gt;E21 Person&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="235" y="170" width="90" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="z1EBOcEIEcNwOvusTDca-37" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 [&amp;quot;ul&amp;quot;,null,&amp;quot;li&amp;quot;,{&amp;quot;style&amp;quot;:null,&amp;quot;checked&amp;quot;:null,&amp;quot;value&amp;quot;:null,&amp;quot;displayValue&amp;quot;:null,&amp;quot;backgroundColor&amp;quot;:null,&amp;quot;color&amp;quot;:null,&amp;quot;listStyleType&amp;quot;:null}]&quot;&gt;E22 Human-Made Object&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="465" y="450" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="z1EBOcEIEcNwOvusTDca-40" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 [&amp;quot;ul&amp;quot;,null,&amp;quot;li&amp;quot;,{&amp;quot;style&amp;quot;:null,&amp;quot;checked&amp;quot;:null,&amp;quot;value&amp;quot;:null,&amp;quot;displayValue&amp;quot;:null,&amp;quot;backgroundColor&amp;quot;:null,&amp;quot;color&amp;quot;:null,&amp;quot;listStyleType&amp;quot;:null}]&quot;&gt;E36 Visual Item&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="480" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="z1EBOcEIEcNwOvusTDca-41" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 [&amp;quot;ul&amp;quot;,null,&amp;quot;li&amp;quot;,{&amp;quot;style&amp;quot;:null,&amp;quot;checked&amp;quot;:null,&amp;quot;value&amp;quot;:null,&amp;quot;displayValue&amp;quot;:null,&amp;quot;backgroundColor&amp;quot;:null,&amp;quot;color&amp;quot;:null,&amp;quot;listStyleType&amp;quot;:null}]&quot;&gt;E38 Image&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="495" y="520" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="z1EBOcEIEcNwOvusTDca-47" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;ul data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;3 3 []&quot;&gt;&lt;li&gt;&lt;div&gt;E72 Legal Object&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;div&gt;E74 Group&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="465" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="z1EBOcEIEcNwOvusTDca-49" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 [&amp;quot;ul&amp;quot;,null,&amp;quot;li&amp;quot;,{&amp;quot;style&amp;quot;:null,&amp;quot;checked&amp;quot;:null,&amp;quot;value&amp;quot;:null,&amp;quot;displayValue&amp;quot;:null,&amp;quot;backgroundColor&amp;quot;:null,&amp;quot;color&amp;quot;:null,&amp;quot;listStyleType&amp;quot;:null}]&quot;&gt;P7 took place at&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="515" y="250" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="z1EBOcEIEcNwOvusTDca-52" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 [&amp;quot;ul&amp;quot;,null,&amp;quot;li&amp;quot;,{&amp;quot;style&amp;quot;:null,&amp;quot;checked&amp;quot;:null,&amp;quot;value&amp;quot;:null,&amp;quot;displayValue&amp;quot;:null,&amp;quot;backgroundColor&amp;quot;:null,&amp;quot;color&amp;quot;:null,&amp;quot;listStyleType&amp;quot;:null}]&quot;&gt;P94 has created&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="380" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="z1EBOcEIEcNwOvusTDca-60" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;ul style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot; data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;3 3 []&quot;&gt;&lt;li&gt;&lt;div&gt;P25 moved to&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="465" y="610" width="140" height="50" as="geometry" />
+        <mxCell id="z1EBOcEIEcNwOvusTDca-30" value="&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;P53 : has former or current location&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="150" y="420" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="z1EBOcEIEcNwOvusTDca-64" value="&lt;h1&gt;Modèle conceptuel&lt;/h1&gt;&lt;p&gt;Les entités (E) et propriétés (P), issues de l&#39;ontologie CIDOC CRM, ont été choisies selon des degrés de spécificité adéquats au processus historique décrit. Les descriptions sont issues de la documentation officielle. Elles correspondent à des objets, des personnes, des personnes morales, et des événements.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="10" y="10" width="330" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="z1EBOcEIEcNwOvusTDca-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=10;" edge="1" parent="1" source="z1EBOcEIEcNwOvusTDca-68" target="z1EBOcEIEcNwOvusTDca-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="685" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z1EBOcEIEcNwOvusTDca-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="z1EBOcEIEcNwOvusTDca-68" target="z1EBOcEIEcNwOvusTDca-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="750" y="510" />
+              <mxPoint x="750" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z1EBOcEIEcNwOvusTDca-68" value="E74 Group" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="60" y="480" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z1EBOcEIEcNwOvusTDca-70" value="&lt;br&gt;		&lt;br&gt;	&lt;br&gt;&lt;span style=&quot;font-size: 7pt; background-color: initial;&quot;&gt;E74 Group &lt;br&gt;This class comprises any gatherings or organizations of human individuals or groups that act&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 7pt; background-color: initial;&quot;&gt;collectively or in a similar way due to any form of unifying relationship [...]&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 7pt; background-color: initial;&quot;&gt;A gathering of people becomes an instance of E74 Group when it exhibits organizational&lt;/span&gt;&lt;span style=&quot;font-size: 7pt; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div title=&quot;Page 100&quot; class=&quot;page&quot;&gt;&lt;div class=&quot;layoutArea&quot;&gt;&lt;div class=&quot;column&quot;&gt;&lt;div title=&quot;Page 101&quot; class=&quot;page&quot;&gt;&lt;div class=&quot;layoutArea&quot;&gt;&lt;div class=&quot;column&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-size: 7pt;&quot;&gt;characteristics usually typified by a set of ideas or beliefs held in common, or actions&lt;br&gt;performed together.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;exemples : the impressionists, Greenpeace, the National Museum of Denmark&amp;nbsp;&lt;/div&gt;&lt;br&gt;			&lt;/div&gt;&lt;br&gt;		&lt;/div&gt;				&lt;/div&gt;&lt;br&gt;			&lt;/div&gt;&lt;br&gt;		&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="830" width="250" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="z1EBOcEIEcNwOvusTDca-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.364;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=8;" edge="1" parent="1" source="z1EBOcEIEcNwOvusTDca-71" target="z1EBOcEIEcNwOvusTDca-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z1EBOcEIEcNwOvusTDca-71" value="E22 Human-Made Object" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="425" y="400" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z1EBOcEIEcNwOvusTDca-72" value="&lt;span style=&quot;font-size: 7pt; background-color: initial;&quot;&gt;E22 Human-Made Object&lt;br&gt;&lt;br&gt;This class comprises all persistent physical objects of any size that are purposely created by&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 7pt; background-color: initial;&quot;&gt;human activity and have physical boundaries that separate them completely in an objective&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 7pt; background-color: initial;&quot;&gt;way from other objects.&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;div title=&quot;Page 75&quot; class=&quot;page&quot;&gt;&lt;div class=&quot;layoutArea&quot;&gt;&lt;div class=&quot;column&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-size: 7.000000pt; font-family: &#39;TimesNewRomanPSMT&#39;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;		&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="680" width="195" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="z1EBOcEIEcNwOvusTDca-75" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;P11 had participant&lt;/font&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fontFamily=Helvetica;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="320" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z1EBOcEIEcNwOvusTDca-81" value="P7 took place at" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fontFamily=Helvetica;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="590" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z1EBOcEIEcNwOvusTDca-86" value="P94 has created" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fontFamily=Helvetica;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="370" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z1EBOcEIEcNwOvusTDca-89" value="&lt;br&gt;&lt;div title=&quot;Page 101&quot; class=&quot;page&quot;&gt;&lt;div class=&quot;layoutArea&quot;&gt;&lt;div class=&quot;column&quot;&gt;					&lt;p&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;P107 has current or former member&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;			&lt;/div&gt;&lt;br&gt;		&lt;/div&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fontFamily=Helvetica;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="30" y="290" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z1EBOcEIEcNwOvusTDca-93" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;P11 had participant&lt;/font&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fontFamily=Helvetica;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="650" y="140" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
