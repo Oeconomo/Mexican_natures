@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-06T21:15:10.184Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="H8jBgH1w06hgSz3PCmGv" version="18.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-06T21:35:40.063Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="hSxjr7TsYfGLIYU4fbd5" version="18.0.0" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="913" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="520" y="20" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="z1EBOcEIEcNwOvusTDca-20" value="&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;participation de personnes et présence de choses&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="60" width="100" height="100" as="geometry" />
+          <mxGeometry x="520" y="60" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="z1EBOcEIEcNwOvusTDca-25" value="&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;&lt;/div&gt;E53 Place" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="690" y="360" width="100" height="40" as="geometry" />
@@ -17,10 +17,10 @@
           <mxGeometry x="690" y="400" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="z1EBOcEIEcNwOvusTDca-27" value="&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;E39 Agent&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="170" y="125" width="100" height="40" as="geometry" />
+          <mxGeometry x="225" y="195" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="z1EBOcEIEcNwOvusTDca-28" value="&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;entités qui effectuent intentionnellement des actions, interagissent avec objets conceptuels ou choses matérielles&amp;nbsp;&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="165" width="100" height="130" as="geometry" />
+          <mxGeometry x="225" y="235" width="100" height="130" as="geometry" />
         </mxCell>
         <mxCell id="z1EBOcEIEcNwOvusTDca-30" value="&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;P53 : has former or current location&lt;/div&gt;&lt;/div&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="435" y="550" width="240" height="60" as="geometry" />
@@ -32,7 +32,7 @@
           <mxGeometry x="480" y="420" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="z1EBOcEIEcNwOvusTDca-36" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 [&amp;quot;ul&amp;quot;,null,&amp;quot;li&amp;quot;,{&amp;quot;style&amp;quot;:null,&amp;quot;checked&amp;quot;:null,&amp;quot;value&amp;quot;:null,&amp;quot;displayValue&amp;quot;:null,&amp;quot;backgroundColor&amp;quot;:null,&amp;quot;color&amp;quot;:null,&amp;quot;listStyleType&amp;quot;:null}]&quot;&gt;E21 Person&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="100" width="90" height="30" as="geometry" />
+          <mxGeometry x="235" y="170" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="z1EBOcEIEcNwOvusTDca-37" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 [&amp;quot;ul&amp;quot;,null,&amp;quot;li&amp;quot;,{&amp;quot;style&amp;quot;:null,&amp;quot;checked&amp;quot;:null,&amp;quot;value&amp;quot;:null,&amp;quot;displayValue&amp;quot;:null,&amp;quot;backgroundColor&amp;quot;:null,&amp;quot;color&amp;quot;:null,&amp;quot;listStyleType&amp;quot;:null}]&quot;&gt;E22 Human-Made Object&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="465" y="450" width="160" height="30" as="geometry" />
@@ -47,25 +47,16 @@
           <mxGeometry x="50" y="465" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="z1EBOcEIEcNwOvusTDca-49" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 [&amp;quot;ul&amp;quot;,null,&amp;quot;li&amp;quot;,{&amp;quot;style&amp;quot;:null,&amp;quot;checked&amp;quot;:null,&amp;quot;value&amp;quot;:null,&amp;quot;displayValue&amp;quot;:null,&amp;quot;backgroundColor&amp;quot;:null,&amp;quot;color&amp;quot;:null,&amp;quot;listStyleType&amp;quot;:null}]&quot;&gt;P7 took place at&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="505" y="260" width="110" height="30" as="geometry" />
+          <mxGeometry x="515" y="250" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="z1EBOcEIEcNwOvusTDca-52" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 [&amp;quot;ul&amp;quot;,null,&amp;quot;li&amp;quot;,{&amp;quot;style&amp;quot;:null,&amp;quot;checked&amp;quot;:null,&amp;quot;value&amp;quot;:null,&amp;quot;displayValue&amp;quot;:null,&amp;quot;backgroundColor&amp;quot;:null,&amp;quot;color&amp;quot;:null,&amp;quot;listStyleType&amp;quot;:null}]&quot;&gt;P94 has created&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="330" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="z1EBOcEIEcNwOvusTDca-54" value="objet&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="535" y="400" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="z1EBOcEIEcNwOvusTDca-55" value="personne&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="185" y="80" width="70" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="z1EBOcEIEcNwOvusTDca-56" value="personne morale&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="75" y="455" width="110" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="z1EBOcEIEcNwOvusTDca-57" value="lieu" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="720" y="340" width="30" height="20" as="geometry" />
+          <mxGeometry x="220" y="380" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="z1EBOcEIEcNwOvusTDca-60" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;ul style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot; data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;3 3 []&quot;&gt;&lt;li&gt;&lt;div&gt;P25 moved to&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="465" y="610" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="z1EBOcEIEcNwOvusTDca-64" value="&lt;h1&gt;Modèle conceptuel&lt;/h1&gt;&lt;p&gt;Les entités (E) et propriétés (P), issues de l&#39;ontologie CIDOC CRM, ont été choisies selon des degrés de spécificité adéquats au processus historique décrit. Les descriptions sont issues de la documentation officielle. Elles correspondent à des objets, des personnes, des personnes morales, et des événements.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="330" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
