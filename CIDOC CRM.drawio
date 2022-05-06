@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-06T14:08:28.539Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="FMAPIqaWbJIkiNtEHuZM" version="18.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-06T14:12:48.820Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="T2PNrO1ce5ukC6rcDVJh" version="18.0.0" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1426" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -7,8 +7,35 @@
         <mxCell id="z1EBOcEIEcNwOvusTDca-19" value="E5 Event" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="140" y="100" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="z1EBOcEIEcNwOvusTDca-20" value="&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;(participation de personnes et présence de choses)&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="z1EBOcEIEcNwOvusTDca-20" value="&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;participation de personnes et présence de choses&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="140" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="z1EBOcEIEcNwOvusTDca-21" value="&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;E7 activity&amp;nbsp;&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="370" y="270" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z1EBOcEIEcNwOvusTDca-22" value="&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;introduit notion d&#39;intention, influence, outils  (production?)&amp;nbsp;&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="310" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="z1EBOcEIEcNwOvusTDca-23" value="E52 Duration" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="520" y="140" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z1EBOcEIEcNwOvusTDca-24" value="&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;&amp;nbsp;seules les entités temporelles (événements) peuvent être liées au temps&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="180" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="z1EBOcEIEcNwOvusTDca-25" value="&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;&lt;/div&gt;E53 Place" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="130" y="320" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z1EBOcEIEcNwOvusTDca-26" value="&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;géographique ou relatif, lié aux entités temporelles mais aussi aux objets, aux acteurs&lt;/div&gt;&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="360" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="z1EBOcEIEcNwOvusTDca-27" value="&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;E39 Agent&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="680" y="170" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z1EBOcEIEcNwOvusTDca-28" value="&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;entités qui effectuent intentionnellement des actions, interagissent avec objets conceptuels ou choses matérielles&amp;nbsp;&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="210" width="100" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="z1EBOcEIEcNwOvusTDca-30" value="&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;P53 : has former or current location&lt;/div&gt;&lt;/div&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="400" y="490" width="240" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
