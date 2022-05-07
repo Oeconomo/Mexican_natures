@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-07T09:56:32.318Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="bl-Mjm8pYyZd_htlX6uo" version="18.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-07T22:09:59.305Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="Jc-nNYza2sn_9ToZCdo2" version="18.0.0" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="2029" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="2276" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -96,8 +96,14 @@
         <mxCell id="z1EBOcEIEcNwOvusTDca-70" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;		&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;	&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 7pt; background-color: initial;&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 7pt;&quot;&gt;E74 Group&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 7pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 7pt;&quot;&gt;This class comprises any gatherings or organizations of human individuals or groups that act&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 7pt;&quot;&gt;collectively or in a similar way due to any form of unifying relationship [...]&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 7pt;&quot;&gt;A gathering of people becomes an instance of E74 Group when it exhibits organizational&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;div title=&quot;Page 100&quot; class=&quot;page&quot;&gt;&lt;div class=&quot;layoutArea&quot;&gt;&lt;div class=&quot;column&quot;&gt;&lt;div title=&quot;Page 101&quot; class=&quot;page&quot;&gt;&lt;div class=&quot;layoutArea&quot;&gt;&lt;div class=&quot;column&quot;&gt;&lt;p&gt;&lt;/p&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 7pt; background-color: initial;&quot;&gt;Characteristics usually typified by a set of ideas or beliefs held in common, or actions&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 7pt;&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 7pt; background-color: initial;&quot;&gt;performed together.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 10px; background-color: initial;&quot;&gt;Exemples : the impressionists, Greenpeace, the National Museum of Denmark.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;			&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;		&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="790" width="260" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="z1EBOcEIEcNwOvusTDca-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.364;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=8;startArrow=none;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="z1EBOcEIEcNwOvusTDca-30" target="z1EBOcEIEcNwOvusTDca-68">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="z1EBOcEIEcNwOvusTDca-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=8;startArrow=none;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="z1EBOcEIEcNwOvusTDca-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="450" />
+              <mxPoint x="120" y="510" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="z1EBOcEIEcNwOvusTDca-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=8;" edge="1" parent="1" source="z1EBOcEIEcNwOvusTDca-71" target="z1EBOcEIEcNwOvusTDca-75">
           <mxGeometry relative="1" as="geometry" />
@@ -181,7 +187,7 @@
           <mxGeometry x="380" y="449" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="z1EBOcEIEcNwOvusTDca-121" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;(0,n)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="63" y="480" width="40" height="20" as="geometry" />
+          <mxGeometry x="120" y="470" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="z1EBOcEIEcNwOvusTDca-125" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -200,6 +206,15 @@
         </mxCell>
         <mxCell id="z1EBOcEIEcNwOvusTDca-81" value="P7 took place at" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fontFamily=Helvetica;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="550" y="330" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="z1EBOcEIEcNwOvusTDca-168" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.182;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=8;" edge="1" parent="1" source="z1EBOcEIEcNwOvusTDca-86" target="z1EBOcEIEcNwOvusTDca-68">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="320" />
+              <mxPoint x="270" y="400" />
+              <mxPoint x="80" y="400" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="z1EBOcEIEcNwOvusTDca-86" value="P94 has created" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fontFamily=Helvetica;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="294" y="310" width="110" height="20" as="geometry" />
@@ -230,6 +245,12 @@
         </mxCell>
         <mxCell id="z1EBOcEIEcNwOvusTDca-75" value="P12 Was present at" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fontFamily=Helvetica;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="365" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z1EBOcEIEcNwOvusTDca-169" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="z1EBOcEIEcNwOvusTDca-86">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="320" as="sourcePoint" />
+            <mxPoint x="320" y="270" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
