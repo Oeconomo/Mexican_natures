@@ -1,6 +1,6 @@
-# Natures mexicaines
+<p align="center"><img width="923" alt="home" src="https://github.com/Oeconomo/Mexican_natures/blob/main/natures_mexicaines/static/images/home.png?raw=true"></p>
 
-<p align="center"><img width="923" alt="home" src=""></p>
+# Natures mexicaines
 
 Cette application web a été développé dans le cadre du cours python du master "Technologies numériques appliquées à l'histoire" de l'École nationale des chartes. Elle sert à appuyer et à valoriser une recherche doctorale effectuée en codirection à Paris 1 Panthéon-sorbonne et à l'École des hautes études en sciences sociales.
 
@@ -10,6 +10,12 @@ Cet instrument continuera à être développé au long de ce parcours doctoral. 
 
 La base de données qui alimente ce site est matérialisée par un modèle physique SQLite. Le modèle conceptuel est constitué d'entités et de propriétés (associations) issues de l'ontologie CIDOC CRM et ambitionne d'évoluer en conformité avec ses préconisations, ce qui permettra d'assurer sa cohérence au fil de sa complexification. le CIDOC CRM est un modèle de référence non prescriptif, orienté objet, pouvant être déployé dans une base de données relationnelles. Dans le cadre de ce projet, son intérêt réside dans la possibilité de croiser des données spatiales et temporelles constituant la vie d'objets patrimoniaux, en relation avec des informations contextuelles qui leur donnent leur signification culturelle et historique. Il permet de les mettre en lien avec les agents (personnes, institutions, évènements) qui les concernent historiquement. 
 
+## Fonctionnalités 
+- Met en valeur une base de données SQLite avec des notices (objets, personnes, personnes morales, événements) liées entre elles.
+- Index par type d'entité
+- Formulaire d'inscription et de connexion pour des utilsiateurs qui souhaitent contribuer à la base. Une fois connécté, il est possible d'ajouter ou éliminer des entrées
+- formulaire de recherche
+- prochainement, une carte et un onglet de ressources numériques
 
 ## Installer et lancer Natures mexicaines 
 Les commandes sont à effectuer dans un terminal.  
