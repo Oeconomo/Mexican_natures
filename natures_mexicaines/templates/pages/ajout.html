@@ -1,0 +1,31 @@
+{% extends "container.html" %}
+
+<!-- titre de l'onglet  -->
+{% block title %}
+    – formulaire d'ajout
+{% endblock %}
+
+{% block corps %}
+<div class="container p-5">
+    <h1 class="display-4">Ajouter une entrée</h1>
+    <p>Choisissez le type d'entité que vous souhaitez ajouter</p>
+    <div class="row p-5">
+        <div class="col">
+            <h1 class="display-6"><a class="text-decoration-none" href="{{url_for('ajout_objet')}}">Object</a></h1>
+            <br>
+            <h1 class="display-6"><a class="text-decoration-none link-secondary" href="{{url_for('en_construction')}}">Événement</a></h1>
+        </div>
+        <div class="col">
+            <h1 class="display-6"><a class="text-decoration-none link-secondary" href="{{url_for('en_construction')}}">Personne</a></h1>
+            <br>
+            <h1 class="display-6"><a class="text-decoration-none link-secondary" href="{{url_for('en_construction')}}">Personne morale</a></h1>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+{% endblock %}

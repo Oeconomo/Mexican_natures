@@ -1,0 +1,41 @@
+{% extends "container.html" %}
+
+{% block title %} – Recherche{% endblock %}
+
+{% block corps %}
+<div class="container p-5">
+    <h1 class="display-4">{{titre}}</h1>
+    {% if resultats %}
+        <p>Il y a {{resultats.total}} entrées qui répondent à votre requête :</p>
+        <ul>
+            {% for resultat in resultats.items %}
+                <li><a href="{{url_for('is_object', objet_id=resultat.id)}}">{{resultat.name}}</a> ({{resultat.production_date}}, {{resultat.type}})</li>
+            {% endfor %}
+        </ul>
+    <br>
+    <br>
+    <br>
+    <nav aria-label="research-pagination">
+        <ul class="pagination">
+            {%- for page in resultats.iter_pages() %}
+                {% if page %}
+                    {% if page != resultats.page %}
+                        <li class="page-item">
+                            <a class="page-link" href="{{ url_for("recherche", keyword=keyword, page=page) }}">{{page}}</a>
+                        </li>
+                    {% else %}
+                        <li class="page-item active disabled">
+                            <a class="page-link"><span class="sr-only">page</span> {{page}}</a>
+                        </li>
+                {% endif %}
+                {% else %}
+                    <li class="page-item disabled">
+                        <a class="page-link">...</a>
+                    </li>
+                {% endif %}
+            {%- endfor %}
+        </ul>
+    </nav>
+    {% endif %}
+</div>
+{% endblock %}

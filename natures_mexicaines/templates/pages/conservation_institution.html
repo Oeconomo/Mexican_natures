@@ -1,0 +1,25 @@
+{% extends "partials/gabarit_entity.html" %}
+
+<!-- titre de l'onglet  -->
+{% block title %}
+    – {{institution_conservation.name}}
+{% endblock %}
+
+<!-- nom de l'entité -->
+{% block name %}
+    {{institution_conservation.name}}
+{% endblock %}
+
+<!-- image à afficher -->
+{% block image %}
+    {% if image %}
+        {{image}}
+    {% endif %}
+{% endblock %}
+
+<!-- informations de l'entité -->
+{% block entity %}
+    <dl>
+        <dt>Description</dt><dd>{{institution_conservation.description}}</dd>
+    </dl>
+{% endblock %}

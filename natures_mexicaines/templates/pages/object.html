@@ -1,0 +1,51 @@
+{% extends "partials/gabarit_entity.html" %}
+
+<!-- titre de l'onglet  -->
+{% block title %}
+    – {{object.name}}
+{% endblock %}
+
+<!-- nom de l'entité -->
+{% block name %}
+    {{object.name}}
+{% endblock %}
+
+<!-- image à afficher -->
+{% block image %}
+    {% if image %}
+        {{image}}
+    {% endif %}
+{% endblock %}
+
+<!-- informations de l'entité -->
+{% block entity %}
+<dl>
+    <!-- attributs propres à l'entité -->
+    <dt>Année</dt><dd>{{object.production_date}}</dd>
+    <dt>Type</dt><dd>{{object.type}}</dd>
+    <dt>Description</dt><dd>{{object.description}}</dd>
+
+    <!-- relation avec table externe : personnes -->
+    {% if personnes != "rien" %}
+        <dt>Producteurs</dt>
+        {% for personne in personnes %}
+            <dd><a href="{{url_for('person', person_id=personne.id)}}">{{personne.name}}</a></dd>
+        {% endfor %}
+    {% endif %}
+    <!-- relation avec table externe : lieux -->
+    {% if places != "rien" %}
+        <dt>Localisations</dt>
+        {% for place in places %}
+            <dd>{{place.name}}</dd>
+        {% endfor %}
+    {% endif %}
+
+    {% if lien %}
+                <dt><a href="{{object.lien}}" target="_blank">Lien vers l'objet numérique</a></dt><dd></dd>
+    {% endif %}
+</dl>
+<!-- Il faut être connecté pour supprimer une entrée.-->
+{% if current_user.is_authenticated %}
+<a href="{{url_for('supprimer_objet', objet_id=object.id)}}" class="btn btn-danger">Supprimer cette entrée</a>
+{% endif %}
+{% endblock %}

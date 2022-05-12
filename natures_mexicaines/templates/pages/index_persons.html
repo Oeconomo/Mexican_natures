@@ -1,0 +1,21 @@
+{% extends "partials/gabarit_index.html" %}
+
+<!-- titre de l'onglet  -->
+{% block title %} – Personnes{% endblock %}
+
+<!-- titre de l'index  -->
+{% block name %}Index des personnes{% endblock %}
+
+<!-- contenu de l'index  -->
+{% block index %}
+    {% if persons %}
+        <ul>
+            {% for person in persons %}
+                <li><a href="{{url_for('person', person_id=person.id)}}">{{person.name}}</a> ({{person.birth}}-{{person.death}})</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        {% include "partials/alerte_contenu_indisponible.html" %}
+    {% endif %}
+{% endblock %}
+

@@ -1,0 +1,49 @@
+{% extends "container.html" %}
+
+<!-- titre de l'onglet  -->
+{% block title %}
+    – ajout : objet
+{% endblock %}
+
+{% block corps %}
+<div class="p-5">
+    <form class="form" method="POST" action="{{url_for('ajout_objet')}}">
+        <div class="mb-3">
+            <label for="name" class="form-label"><h4>Titre de l'objet*</h4></label>
+            <input type="text" class="form-control" id="name" name="name"
+                   placeholder="ex : titre de l'oeuvre">
+        </div>
+        <div class="mb-3">
+            <label for="production_date" class="form-label"><h4>Année de production</h4></label>
+            <input type="text" class="form-control" id="production_date" name="production_date"
+                   placeholder="ex : 1898">
+        </div>
+        <div class="mb-3">
+            <label for="type" class="form-label"><h4>Type d'objet*</h4></label>
+            <input type="text" class="form-control" id="type" name="type"
+                   placeholder="ex : photographie/lithographie/dessin/peinture/livre">
+        </div>
+        <div class="mb-3">
+            <label for="description" class="form-label"><h4>Description de l'objet*</h4></label>
+            <input type="text" class="form-control" id="description" name="description"
+                   placeholder="ex : Cet fut produit dans un contexte spécifique et a une importance historique">
+        </div>
+        <div class="mb-3">
+            <label for="image" class="form-label"><h4>URL vers l'Image*</h4></label>
+            <input type="text" class="form-control" id="image" name="image"
+                   placeholder="ex : https://gallica.bnf.fr/iiif/ark:/12148/bpt6k28169j/f1/full/full/0/native.jpg">
+        </div>
+        <div class="mb-3">
+            <label for="lien" class="form-label"><h4>Lien vers une numérisation</h4></label>
+            <input type="text" class="form-control" id="lien" name="lien"
+                   placeholder="ex : https://gallica.bnf.fr/ark:/12148/bpt6k28169j.r=commission%20geographique%20exploratrice?rk=21459;2">
+        </div>
+    <br><p class="small">*Champ obligatoire</p>
+    <button class="btn btn-dark btn-lg" type="submit">Ajouter à la base</button>
+    <a href="{{url_for('home')}}" class="btn btn-outline-secondary btn-lg">Annuler</a>
+    </form>
+    <br>
+    <br>
+    <br>
+</div>
+{% endblock %}

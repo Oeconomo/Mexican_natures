@@ -1,0 +1,29 @@
+{% extends "container.html" %}
+
+{% block corps %}
+<div style="position: relative; text-align: center; color: white;">
+    <img src="static/images/Velasco_4.png" alt="Valle de México desde el cerro de Santa Isabel, José María Velasco, 1876" style="width:100%;">
+    <div style="position: absolute; top: 270px; left: 50%; transform: translate(-50%, -50%); ">
+        <h1 class="display-6">Bienvenue sur {{name}}.</h1>
+        <br>
+        <br>
+        <h5>
+            Ce site fédère des objets visuels ayant servi à "inventer" la nature mexicaine au XIXe siècle, soit des artefacts
+            ayant été mobilisés pour développer une culture intellectuelle sur les richesses naturelles d'une nation en construction.
+            Il réunit des ressources numériques provenant de plusieurs institutions à travers le monde et en propose de nouvelles, avec l'ambition
+            de cartographier leurs circulations au XIXe siècle dans le cadre d'un réseau de production de connaissances comprenant le Mexique, les États-Unis et la France.
+        </h5>
+        <br>
+        <br>
+        <h5>
+            {% if objects %}
+                Cet instrument recense actuellement {{objects|length}} objets, {{persons|length}} personnes et {{moral_persons|length}} institutions ayant constitué ce réseau transnational.
+            {% else %}
+                La base de données alimentant ce site est en cours de constitution.
+            {% endif %}
+        </h5>
+        <br>
+        <a href="{{url_for('about')}}" class="link-light" style="color: white"><h5>En savoir plus ></h5></a>
+    </div>
+</div>
+{% endblock %}

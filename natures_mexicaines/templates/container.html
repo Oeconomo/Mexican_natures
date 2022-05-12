@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{name}}{% block title %}{% endblock %}</title>
+    <!-- métadonnées -->
+    {% include "partials/css.html" %}
+    {% include "partials/metadata.html" %}
+</head>
+<body>
+    <!-- menu déroulant -->
+    {% include "partials/header.html" %}
+
+    <!-- messages flask -->
+    {% include "partials/messages_flask.html" %}
+
+    <!-- block général pour toutes les pages-->
+    {% block corps %}{% endblock %}
+
+    <!-- éléments en fin de page -->
+    {% include "partials/footer.html" %}
+</body>
+</html>

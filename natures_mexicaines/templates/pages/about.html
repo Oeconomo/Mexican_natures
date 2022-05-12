@@ -1,0 +1,49 @@
+{% extends "container.html" %}
+
+{% block corps %}
+<img src="static/images/velasco_5.png" alt="La Cañada de Metleyac, José María Velasco" style="width:100%;">
+<div class="container p-5" >
+    <div class="row">
+        <div class="col">
+            <h1 class="display-4">Application WEB</h1>
+            <p>Cette application web a été développé dans le cadre du cours python du master "Technologies numériques appliquées à l'histoire" de l'École nationale des chartes.
+                Elle sert à appuyer et à valoriser une recherche doctorale effectuée en codirection à Paris 1 Panthéon-sorbonne et à l'École des hautes études en sciences sociales.
+            </p>
+            <p>Cette recherche croise les objets et les méthodes de l'histoire de l'art, de l'histoire des sciences et de l'histoire globale. Elle porte sur des objets visuels
+                (photographies, dessins, lithographies, cartes, peintures) et cherche à retracer leur circulation dans un réseau de production de connaissances transnational.</p>
+            <p>Ainsi, ce site fédère des objets visuels ayant servi à "inventer" la nature mexicaine au XIXe siècle, soit des artefacts
+                ayant été mobilisés pour développer une culture intellectuelle sur les richesses naturelles d'une nation en construction.
+                Il réunit des ressources numériques provenant de plusieurs institutions à travers le monde et en propose de nouvelles, avec l'ambition
+                de cartographier leurs circulations au XIXe siècle dans le cadre d'un réseau comprenant le Mexique, les États-Unis et la France.</p>
+            <p><b>Cet instrument continuera à être développé au long de ce parcours doctoral. Ses contenus et sa base de données seront renforcés dans la perspective d'en faire un instrument de valorisation en
+                même temps qu'un appui scientifique robuste.</b></p>
+            <p>La base de données qui alimente ce site est matérialisée par un modèle physique SQLite. Le modèle conceptuel est constitué d'entités et de propriétés (associations) issues de l'ontologie
+                <a href="https://www.cidoc-crm.org/sites/default/files/cidoc_crm_version_7.2.1%20%28updates%20from%207.2%20and%207.1.2%29_0.pdf" target="_blank">CIDOC CRM</a>
+                et ambitionne d'évoluer en conformité avec ses préconisations, ce qui permettra d'assurer sa cohérence au fil de sa complexification. le CIDOC CRM est un modèle de référence non prescriptif, orienté objet, pouvant être déployé dans une base de données relationnelles. Dans le cadre de ce projet, son intérêt
+                réside dans la possibilité de croiser des données spatiales et temporelles constituant la vie d'objets patrimoniaux, en relation avec des informations contextuelles qui leur donnent leur signification culturelle et historique.
+                Il permet de les mettre en lien avec les agents (personnes, institutions, évènements) qui les concernent historiquement.
+                Le CIDOC CRM  a été conçu dans le monde des musées, et vise des collections, des lieux et des événements liés entre autres à l'ethnographie, à l'archéologie, aux beaux-arts,
+                et à l'histoire naturelle – thématiques fondamentales de la recherche en question. Ce modèle est ainsi apparu comme une approche indispensable pour commencer une réflexion autour de la possibilité de cartographier la circulation située et historicisée d'objets visuels.
+            </p>
+            <p>Le CIDOC CRM est une ontologie hiérarchisée dont les entités héritent les caractéristiques de leurs parents ; ceci permet d'intervenir dans les degrés de généralisation et de spécialisation
+                pour la description des processus. Le choix des entités a été opéré en fonction de l'expérience historique concernée, laquelle implique globalement des objets, des personnes, des personnes morales,
+                des lieux et des événements. Les entités (E) et proprietés (P) retenues ont été utilisées pour former le modèle suivant (plus de détails <a href="{{url_for('modele_conceptuel')}}">ici</a>) :</p>
+            <img class="p-3" src="static/images/modele_conceptuel_partiel.svg" style=" display: block; margin: 0px auto;">
+            <p>Les entités (E) et propriétés (P) suivantes, pour certaines présentes sous forme d'attributs, sont susceptibles d'être mobilisées dans le développement futur du modèle conceptuel :</p>
+            <p class="small">E1 CRM Entity - E2 Temporal Entity - E7 Activity - E8 Acquisition - E9 Move - E11 Modification - E18 Physical Thing - E19 Physical Object - E27 Site - E31 Document - E36 Visual Item - E38 Image - E39 Actor - E47 Spatial coordinates - E52 Time-Span - E56 Language - E63 Beginning of Existence - E64 End of Existence - E65 Creation - E68 Dissolution - E69 Death - E72 Legal Object - E77 Persistent Item - E78 Collection - E81 Transformation - E84 Information carrier - E85 Joining - E86 Leaving - E92 Spacetime Volume - E93 Presence
+            <p class="small">P4 has time-span - P11 had participant - P25 moved to - P26  moved from - P41 classified (was classified by) - P62 depicts - P65 shows visual item - P72 has language - P73 has translation - P94 has created - P132 spatiotemporally overlaps with - P160 has temporal projection
+            </p>
+            <h1 class="display-4">Thèse</h1>
+            <p><i>Le Mexique aux expositions universelles parisiennes. Circulations, interactions et transferts culturels dans la production d’images scientifiques sur le territoire mexicain (1889-1900)</i>.
+            <p>Sous la direction de Geneviève Verdo (Paris 1/CRALMI) et Clément Thibaud (EHESS/CERMA).</p>
+            <p>L’État mexicain entreprend pendant le dernier tiers du XIXe siècle un programme de modernisation fondé sur l’intégration du pays au système économique mondial. Reposant sur l’attraction de capitaux étrangers et sur la consolidation de marchés d’exportation, ce processus est renforcé par la diffusion d’images de modernité dans les métropoles occidentales et s’appuie sur une participation assidue aux expositions universelles. Ces plateformes de promotion entraînent l’intensification de la production culturelle dans le pays à travers la mobilisation d’institutions et d’acteurs locaux pour fabriquer des objets censés attester la prospérité nationale.</p>
+            <p>Cette recherche propose d’étudier des objets visuels véhiculant l’un des thèmes fondamentaux des pavillons mexicains : une conception de la modernité articulée autour de la connaissance et de l’administration scientifique du territoire. Celle-ci fut investie dans des artefacts à vocation scientifique qui forment un corpus hétérogène mais idéologiquement cohérent : dessins, lithographies, photographies et peintures représentant le territoire mexicain. Souvent réunies dans des atlas, ces images composent une culture visuelle liant le patrimoine naturel (géologique et botanique) à l’histoire et au développement des infrastructures nationales, et mettent en valeur l’emprise territoriale d’une administration publique positiviste.</p>
+            <p>Ce travail propose d’aborder les étapes de production de ces objets, leur inscription dans les réseaux scientifiques et artistiques du pays ainsi que leur relation avec des interprétations locales des paradigmes culturels européens. En effet, ils furent fabriqués par des acteurs avec des identités variées : scientifiques, artistes et populations indigènes. J’envisage d’étudier la circulation de ces objets entre le Mexique et la France, et de les caractériser en tant que produits de transferts culturels. Pour ce faire, j’aborde cette recherche à travers des approches spatiales partagées par l’histoire globale, l’histoire des sciences et l’histoire de l’art.</p>
+            <a href="http://mondes-americains.ehess.fr/index.php?2911" target="_blank"><h4>En savoir plus ></h4></a>
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+</div>
+{% endblock %}

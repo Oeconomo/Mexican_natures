@@ -1,0 +1,34 @@
+{% extends "partials/gabarit_entity.html" %}
+
+<!-- titre de l'onglet  -->
+{% block title %}
+    – {{person.name}}
+{% endblock %}
+
+<!-- nom de l'entité -->
+{% block name %}
+    {{person.name}}
+{% endblock %}
+
+<!-- image à afficher -->
+{% block image %}
+    {% if image %}
+        {{image}}
+    {% endif %}
+{% endblock %}
+
+<!-- informations de l'entité -->
+{% block entity %}
+<dl>
+    <dt>Année</dt><dd>{{person.birth}}-{{person.death}}</dd>
+    <dt>Description</dt><dd>{{person.description}}</dd>
+
+    <!-- relation avec table externe : personnes morales -->
+    {% if institutions != "rien" %}
+        <dt>Institutions de rattachement</dt>
+        {% for institution in institutions %}
+            <dd><a href="{{url_for('moral_person', moral_person_id=institution.id)}}">{{institution.name}}</a></dd>
+        {% endfor %}
+    {% endif %}
+</dl>
+{% endblock %}

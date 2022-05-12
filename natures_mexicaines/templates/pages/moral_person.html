@@ -1,0 +1,26 @@
+{% extends "partials/gabarit_entity.html" %}
+
+<!-- titre de l'onglet  -->
+{% block title %}
+    – {{moral_person.name}}
+{% endblock %}
+
+<!-- nom de l'entité -->
+{% block name %}
+    {{moral_person.name}}
+{% endblock %}
+
+<!-- image à afficher -->
+{% block image %}
+    {% if image %}
+        {{image}}
+    {% endif %}
+{% endblock %}
+
+<!-- informations de l'entité -->
+{% block entity %}
+    <dl>
+        <dt>Années d'activité</dt><dd>{{moral_person.creation}}-{{moral_person.dissolution}}</dd>
+        <dt>Description</dt><dd>{{moral_person.description}}</dd>
+    </dl>
+{% endblock %}

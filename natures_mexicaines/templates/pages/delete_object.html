@@ -1,0 +1,27 @@
+{% extends "container.html" %}
+
+{% block title %} – Supprimer {{supprimer.name}}{% endblock %}
+
+{% block corps %}
+<div class="container p-5">
+    <h1>Suppression de l'entrée</h1>
+    <br>
+    <form method="POST" action="{{url_for('supprimer_objet', objet_id=supprimer.id)}}">
+        <div>
+            <h5>Êtes-vous certain de vouloir supprimer cet objet ?</h5>
+            <br>
+            <h4><b>Nom de l'objet :</b> {{supprimer.name}}</h4>
+        </div>
+        <br/>
+        <div>
+            <div>
+                <button type="submit" class="btn btn-danger btn-lg">Confirmer</button>
+                <a href="{{url_for('is_object', objet_id=supprimer.id)}}"
+                   class="btn btn-outline-secondary btn-lg">Annuler</a>
+            </div>
+        </div>
+    </form>
+</div>
+<br>
+<br>
+{% endblock %}

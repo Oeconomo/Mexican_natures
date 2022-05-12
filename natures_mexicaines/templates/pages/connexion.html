@@ -1,0 +1,32 @@
+{% extends "container.html" %}
+
+{% block title %}| Connexion{%endblock%}
+
+{% block corps %}
+<div class="container p-5">
+  <h1 class="display-4">
+    Connexion
+  </h1>
+  <br>
+  <form class="form" method="POST" action="{{url_for('connexion')}}">
+    <div class="form-group row">
+      <label for="register-login" class="col-sm-2 col-form-label">Login</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control small" id="register-login" name="login" placeholder="Nom d'utilisateur">
+      </div>
+    </div>
+    <br>
+    <div class="form-group row">
+      <label for="register-password" class="col-sm-2 col-form-label">Password</label>
+      <div class="col-sm-10">
+        <input type="password" class="form-control" id="register-password" placeholder="Mot de passe" name="motdepasse">
+      </div>
+    </div>
+    <br>
+    <div>
+      <button type="submit" class="btn btn-dark">Connexion</button>
+      <a href="{{url_for('inscription')}}" class="btn btn-secondary">Inscription</a>
+    </div>
+  </form>
+</div>
+{% endblock %}>

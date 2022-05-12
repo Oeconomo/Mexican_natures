@@ -1,0 +1,17 @@
+{% extends "container.html" %}
+
+{% block title %} : Carte{% endblock %}
+
+{% block corps %}
+<div class="container p-5">
+    <div class="row">
+        <div class="col ">
+            <h1 class="display-4">Carte</h1>
+            <p>Cet instrument vise à cartographier un réseau de production de savoirs naturalistes sur le Mexique impliquant des
+                objets, des personnes, des institutions et des évènements.</p>
+
+            {% include "partials/alerte_contenu_indisponible.html" %}
+        </div>
+    </div>
+</div>
+{% endblock %}

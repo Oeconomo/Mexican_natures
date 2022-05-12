@@ -1,0 +1,37 @@
+{% extends "partials/gabarit_entity.html" %}
+
+<!-- titre de l'onglet  -->
+{% block title %}
+    – {{event.name}}
+{% endblock %}
+
+<!-- nom de l'entité -->
+{% block name %}
+    {{event.name}}
+{% endblock %}
+
+<!-- image à afficher -->
+{% block image %}
+    {% if image %}
+        {{image}}
+    {% endif %}
+{% endblock %}
+
+<!-- informations de l'entité -->
+{% block entity %}
+    <dl>
+        <dt>Année</dt><dd>{{event.start}}</dd>
+
+        <!-- relation avec table externe : lieux -->
+        {% if ville != "rien" %}
+            <dt>Lieu</dt>
+            {% for villes in ville %}
+                <dd>{{villes.name}}</dd>
+            {% endfor %}
+        {% endif %}
+
+        <dt>Description</dt><dd>{{event.description}}</dd>
+    </dl>
+{% endblock %}
+
+

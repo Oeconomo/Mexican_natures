@@ -1,0 +1,28 @@
+{% extends "container.html" %}
+
+<!-- titre pour l'onglet, à indiquer au niveau des pages d'entité et non ici -->
+{% block title %}{% endblock %}
+
+<!-- squelette et style pour les entités -->
+{% block corps %}
+<div class="container p-5">
+    <div class="row">
+        <h1 class="display-4">
+            {% block name %}{% endblock %}
+        </h1>
+    </div>
+    <p class="dropdown-divider"/>
+    <div class="row">
+        <div class="col">
+            <img src="{% block image %}{% endblock %}" style="float: left; width:  500px; height: auto;">
+        </div>
+        <div class="col">
+            {% block entity %}{% endblock %}
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+{% endblock %}
+

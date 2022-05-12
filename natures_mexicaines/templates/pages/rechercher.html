@@ -1,0 +1,23 @@
+{% extends "container.html" %}
+
+{% block title %} – Rechercher{% endblock %}
+
+{% block corps %}
+<div style="position: relative; text-align: center; color: white;">
+    <img src="static/images/Velasco_1.png" alt="Valle de México desde el cerro de Santa Isabel, José María Velasco, 1876" style="width:100%;">
+    <div style="position: absolute; top: 270px; left: 50%; transform: translate(-50%, -50%); ">
+      <div class="container hero jumbotron p-5">
+        <div class="container">
+          <form class="form" action="{{url_for('recherche')}}" method="GET">
+          <div class="input-group">
+            <input type="search" name="keyword" class="form-control " type="text" placeholder="Votre recherche">
+            <span class="input-group-btn">
+              <button class="btn btn-secondary btn-lg" role="button">Rechercher</button>
+            </span>
+          </div>
+          </form>
+        </div>
+      </div>
+    </div>
+</div>
+{% endblock %}

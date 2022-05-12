@@ -1,0 +1,23 @@
+{% extends "partials/gabarit_index.html" %}
+
+<!-- titre de l'onglet  -->
+{% block title %} – Personnes morales{% endblock %}
+
+<!-- titre de l'index  -->
+{% block name %}Index des personnes morales{% endblock %}
+
+<!-- contenu de l'index  -->
+{% block index %}
+    <p>Cet index contient des institutions, organismes et groupes constituant des objets historiques du réseau étudié.</p>
+    {% if moral_persons %}
+        <ul>
+            {% for moral_person in moral_persons %}
+                <li><a href="{{url_for('moral_person', moral_person_id=moral_person.id)}}">{{moral_person.name}}</a> ({{moral_person.creation}}-{{moral_person.dissolution}})</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        {% include "partials/alerte_contenu_indisponible.html" %}
+    {% endif %}
+{% endblock %}
+
+

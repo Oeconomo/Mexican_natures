@@ -1,0 +1,22 @@
+{% extends "partials/gabarit_index.html" %}
+
+<!-- titre de l'onglet  -->
+{% block title %} – Institutions de conservation{% endblock %}
+
+<!-- titre de l'index  -->
+{% block name %}Index des institutions de conservation{% endblock %}
+
+<!-- contenu de l'index  -->
+{% block index %}
+    <p>Cet index contient des organismes conservant des versions physiques ou numériques des objets étudés.</p>
+    {% if institutions_conservation %}
+        <ul>
+            {% for institution_conservation in institutions_conservation %}
+                <li><a href="{{url_for('institution_conservation', institution_conservation_id=institution_conservation.id)}}">{{institution_conservation.name}}</a></li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        {% include "partials/alerte_contenu_indisponible.html" %}
+    {% endif %}
+{% endblock %}
+

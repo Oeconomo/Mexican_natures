@@ -1,0 +1,35 @@
+{% extends "container.html" %}
+
+{% block corps %}
+<img src="static/images/velasco_5.png" alt="La Cañada de Metleyac, José María Velasco" style="width:100%;">
+
+<div class="container-sm p-5" >
+    <div class="row">
+        <div class="col">
+            <h1 class="display-4">Modèle conceptuel</h1>
+            <p>La base de données qui alimente ce site est matérialisée par un modèle physique SQLite. Le modèle conceptuel est constitué d'entités et de propriétés (associations) issues de l'ontologie
+                <a href="https://www.cidoc-crm.org/sites/default/files/cidoc_crm_version_7.2.1%20%28updates%20from%207.2%20and%207.1.2%29_0.pdf" target="_blank">CIDOC CRM</a>
+                et ambitionne d'évoluer en conformité avec ses préconisations, ce qui permettra d'assurer sa cohérence au fil de sa complexification. le CIDOC CRM est un modèle de référence non prescriptif, orienté objet, pouvant être déployé dans une base de données relationnelles. Dans le cadre de ce projet, son intérêt
+                réside dans la possibilité de croiser des données spatiales et temporelles constituant la vie d'objets patrimoniaux, en relation avec des informations contextuelles qui leur donnent leur signification culturelle et historique.
+                Il permet de les mettre en lien avec les agents (personnes, institutions, évènements) qui les concernent historiquement.
+                Le CIDOC CRM  a été conçu dans le monde des musées, et vise des collections, des lieux et des événements liés entre autres à l'ethnographie, à l'archéologie, aux beaux-arts,
+                et à l'histoire naturelle – thématiques fondamentales de la recherche en question. Ce modèle est ainsi apparu comme une approche indispensable pour commencer une réflexion autour de la possibilité de cartographier la circulation située et historicisée d'objets visuels.
+            </p>
+            <p>Le CIDOC CRM est une ontologie hiérarchisée dont les entités héritent les caractéristiques de leurs parents ; ceci permet d'intervenir dans les degrés de généralisation et de spécialisation
+                pour la description des processus. Le choix des entités a été opéré en fonction de l'expérience historique concernée, laquelle implique globalement des objets, des personnes, des personnes morales,
+                des lieux et des événements. Les entités (E) et proprietés (P) retenues ont été utilisées pour former le modèle suivant :</p>
+
+            <img class="p-3" src="static/images/modele_conceptuel.svg" style=" display: block; margin: 0px auto;">
+
+            <p>Les entités (E) et propriétés (P) suivantes, pour certaines présentes sous forme d'attributs, sont susceptibles d'être mobilisées dans le développement futur du modèle conceptuel :</p>
+            <p class="small">E1 CRM Entity - E2 Temporal Entity - E7 Activity - E8 Acquisition - E9 Move - E11 Modification - E18 Physical Thing - E19 Physical Object - E27 Site - E31 Document - E36 Visual Item - E38 Image - E39 Actor - E47 Spatial coordinates - E52 Time-Span - E56 Language - E63 Beginning of Existence - E64 End of Existence - E65 Creation - E68 Dissolution - E69 Death - E72 Legal Object - E77 Persistent Item - E78 Collection - E81 Transformation - E84 Information carrier - E85 Joining - E86 Leaving - E92 Spacetime Volume - E93 Presence
+            <p class="small">P4 has time-span - P12 Occurred in the presence of - P25 moved to - P26  moved from - P41 classified (was classified by) - P62 depicts - P65 shows visual item - P72 has language - P73 has translation - P94 has created - P132 spatiotemporally overlaps with - P160 has temporal projection
+            </p>
+            <br>
+            <h4><a href="{{url_for('about')}}">Retour ></a></h4>
+            <br>
+            <br>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,102 @@
+<!--  menu de navigation supérieur, avec ses onglets -->
+<nav class="navbar navbar-expand-md navbar-dark fixed-top p-3" style='background-color: #627e75;'>
+    <div class="container-fluid">
+        <!-- Logo réalisé sur pixlr.com -->
+        <a class="navbar-brand " href="{{ url_for('home') }}"><img src="/static/images/logo_titre.png" alt="Natures mexicaines" style="width:300px;" > </a>
+        <div class="container-fluid collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{url_for('home')}}">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{url_for('carte')}}">Carte</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="{{url_for('index_objects')}}" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Index
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="{{url_for('en_construction')}}">Voir toutes les entités</a></li>
+                        <li class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="{{url_for('index_objects')}}">Index des objets</a></li>
+                        <li><a class="dropdown-item" href="{{url_for('index_persons')}}">Index des personnes physiques</a></li>
+                        <li><a class="dropdown-item" href="{{url_for('index_moral_persons')}}">Index des personnes morales</a></li>
+                        <li><a class="dropdown-item" href="{{url_for('index_institutions_conservation')}}">Index des institutions de conservation</a></li>
+                        <li><a class="dropdown-item" href="{{url_for('index_events')}}">Index des événements</a></li>
+                        <li><a class="dropdown-item" href="{{url_for('index_places')}}">Index des villes</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Ressources numériques
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+                        <li><a class="dropdown-item" href="{{url_for('en_construction')}}">Voir toutes les ressources</a></li>
+                        <li class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="{{url_for('en_construction')}}">Articles en ligne</a></li>
+                        <li><a class="dropdown-item" href="{{url_for('en_construction')}}">Expositions virtuelles</a></li>
+                        <li><a class="dropdown-item" href="{{url_for('en_construction')}}">Évènements</a></li>
+                        <li><a class="dropdown-item" href="{{url_for('en_construction')}}">Bibliographie</a></li>
+                    </ul>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{url_for('rechercher')}}">Recherche</a>
+                </li>
+                <li class="nav-item dropdown">
+                    {% if not current_user.is_authenticated %}
+                    <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Utilisateur
+                    </a>
+                    {% else %}
+                    <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        {{current_user.name}}
+                    </a>
+                    {% endif %}
+                    <ul class="dropdown-menu link-dark" aria-labelledby="navbarDropdownMenuLink3">
+                        {% if not current_user.is_authenticated %}
+                         <li>
+                            <a class="dropdown-item" href="{{url_for('connexion')}}">Connexion</a>
+                        </li>
+                        <li class="dropdown-divider"></li>
+                        <li>
+                            <a class="dropdown-item" href="{{url_for('inscription')}}">Inscription</a>
+                        </li>
+                        {% else %}
+                        <li>
+                            <a class="dropdown-item" href="{{url_for('deconnexion')}}">Déconnexion ({{current_user.name}})</a>
+                        </li>
+                        <li class="dropdown-divider"></li>
+                        <li>
+                            <a class="dropdown-item" href="{{url_for('ajout')}}">Ajouter une entrée</a>
+                        </li>
+                        {% endif %}
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+     <form class="form" action="{{url_for('recherche')}}" method="GET">
+        <div class="input-group">
+            <input type="search" name="keyword" class="form-control " type="text" placeholder="recherche">
+            <span class="input-group-btn">
+            <button class="btn btn-secondary btn-lg" role="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg></button>
+            </span>
+        </div>
+     </form>
+</nav>
+
+<!-- Le menu déroulant tel que proposé par le W3C (https://getbootstrap.com/docs/5.0/components/navbar/) semble ne pas fonctionner. -->
+<!-- Le script suivant, avec certaines modifications sur les classes, le fait fonctionner parfaitement. -->
+<!-- Cette solution est proposée sur stackoverflow : https://stackoverflow.com/questions/46026899/bootstrap-4-dropdown-menu-not-working -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+        integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+        integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+        crossorigin="anonymous"></script>

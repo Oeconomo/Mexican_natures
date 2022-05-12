@@ -1,0 +1,20 @@
+{% extends "partials/gabarit_index.html" %}
+
+<!-- titre de l'onglet  -->
+{% block title %} – Événements{% endblock %}
+
+<!-- titre de l'index  -->
+{% block name %}Index des événements{% endblock %}
+
+<!-- contenu de l'index  -->
+{% block index %}
+    {% if events %}
+    <ul>
+        {% for event in events %}
+            <li><a href="{{url_for('event', event_id=event.id)}}">{{event.name}}</a> ({{event.start}})</li>
+        {% endfor %}
+    </ul>
+    {% else %}
+        {% include "partials/alerte_contenu_indisponible.html" %}
+    {% endif %}
+{% endblock %}

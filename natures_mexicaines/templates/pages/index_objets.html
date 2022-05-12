@@ -1,0 +1,21 @@
+{% extends "partials/gabarit_index.html" %}
+
+<!-- titre de l'onglet  -->
+{% block title %} – Objets{% endblock %}
+
+<!-- titre de l'index  -->
+{% block name %}Index des objets{% endblock %}
+
+<!-- contenu de l'index  -->
+{% block index %}
+    {% if objects %}
+        <ul>
+            {% for objet in objects %}
+                <li><a href="{{url_for('is_object', objet_id=objet.id)}}">{{objet.name}}</a> ({{objet.type}})</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        {% include "partials/alerte_contenu_indisponible.html" %}
+    {% endif %}
+{% endblock %}
+
