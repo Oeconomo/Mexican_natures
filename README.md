@@ -13,7 +13,7 @@ La base de données qui alimente ce site est matérialisée par un modèle physi
 ## Fonctionnalités actuelles 
 - Met en valeur une base de données SQLite avec des notices (objets, personnes, personnes morales, événements) liées entre elles.
 - Index par type d'entité
-- Formulaire d'inscription et de connexion pour des utilsiateurs qui souhaitent contribuer à la base. Une fois connécté, il est possible d'ajouter ou éliminer des entrées
+- Formulaire d'inscription et de connexion pour des utilisateurs qui souhaitent contribuer à la base. Une fois connécté, il est possible d'ajouter ou d'éliminer des entrées
 - formulaire de recherche
 
 ## Fonctionnalités prévues (2022-2023)
@@ -31,18 +31,20 @@ La base de données qui alimente ce site est matérialisée par un modèle physi
 Les commandes sont à effectuer dans un terminal.  
 
 **Prérequis**
+
 Votre ordinateur doit avoir les installations suivantes : 
 - python3 (tutoriel : https://www.w3schools.com/python/default.asp)
 - git (tutoriel : https://www.w3schools.com/git/)
 
-**Installer l'application :** 
+**Installer l'application** 
 - Cloner le dêpot sur votre ordinateur : `git clone https://github.com/Oeconomo/Mexican_natures`
 - Se déplacer dans le dossier cloné : `cd ~/chemin/vers/le/dossier`
 - Installer un environnement virtuel : `virtualenv -p python3 env`
 - Activer l'environnement virtuel : `source env/bin/activate`
 - Installer les paquets nécessaires : `pip install -r requirements.txt`
 
-**Lancer l'application :**
+**Lancer l'application**
+
 Chaque fois que vous voudrez lancer l'application, tapez les commandes suivantes :
 - ouvrir un terminal
 - Se déplacer dans le dossier cloné : `cd ~/chemin/vers/le/dossier` (si vous venez d'installer l'application, cela est déjà fait)
