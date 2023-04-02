@@ -2,7 +2,7 @@
 
 # Natures mexicaines
 
-Natures mexicaines fédère des objets visuels ayant servi à "inventer" la nature mexicaine au XIXe siècle, soit des artefacts ayant été mobilisés pour développer une culture intellectuelle sur les richesses naturelles d'une nation en construction. Il réunit des ressources numériques provenant de plusieurs institutions à travers le monde et en propose de nouvelles, avec l'ambition de cartographier leurs circulations au XIXe siècle dans le cadre d'un réseau de production de connaissances comprenant le Mexique, les États-Unis et la France.
+Natures mexicaines est une application web qui fédère des objets visuels ayant servi à "inventer" la nature mexicaine au XIXe siècle, soit des artefacts ayant été mobilisés pour développer une culture intellectuelle sur les richesses naturelles d'une nation en construction. Il réunit des ressources numériques provenant de plusieurs institutions à travers le monde et en propose de nouvelles, avec l'ambition de cartographier leurs circulations au XIXe siècle dans le cadre d'un réseau de production de connaissances comprenant le Mexique, les États-Unis et la France.
 
 Cet instrument continuera à être développé au long de ce parcours doctoral. Ses contenus et sa base de données seront renforcés dans la perspective d'en faire un instrument de valorisation en même temps qu'un appui scientifique robuste. 
 
