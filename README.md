@@ -16,13 +16,13 @@ Cette application web a été développée dans le cadre du master "Technologies
 - Index par type d'entité
 - Formulaire d'inscription et de connexion pour des utilisateurs qui souhaitent contribuer à la base. Une fois connécté, il est possible d'ajouter ou d'éliminer des entrées
 - formulaire de recherche
-- carte des entités et des circulations (en cous de développement)
+- carte des entités et des circulations (en cours de développement)
 - onglet ressources numériques
 - visionneur et implémentation iiif pour mettre à disposition des objets numériques complexes (en cous de développement)
 - API (en cous de développement)
-- recherche avancée et autocomplétaion avec icônes (en cous de développement)
+- recherche avancée et autocomplétaion avec icônes (en cours de développement)
 - facettes pour ordonner les index
-- récupération automatique d'objets numériques pour des sites avec des corpus importants (Gallica, Europeana) (en cous de développement)
+- récupération automatique d'objets numériques pour des sites avec des corpus importants (Gallica, Europeana) (en cours de développement)
 - hierarchie de droits pour les utilisateurs
 
 
