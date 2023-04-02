@@ -8,7 +8,7 @@ Cet instrument continuera à être développé au long de ce parcours doctoral. 
 
 La base de données qui alimente ce site est matérialisée par un modèle physique SQLite. Le modèle conceptuel est constitué d'entités et de propriétés (associations) issues de l'ontologie CIDOC CRM et ambitionne d'évoluer en conformité avec ses préconisations, ce qui permettra d'assurer sa cohérence au fil de sa complexification. le CIDOC CRM est un modèle de référence non prescriptif, orienté objet, pouvant être déployé dans une base de données relationnelles. Dans le cadre de ce projet, son intérêt réside dans la possibilité de croiser des données spatiales et temporelles constituant la vie d'objets patrimoniaux, en relation avec des informations contextuelles qui leur donnent leur signification culturelle et historique. Il permet de les mettre en lien avec les agents (personnes, institutions, évènements) qui les concernent historiquement. 
 
-Cette application web a été développé dans le cadre du master "Technologies numériques appliquées à l'histoire" de l'École nationale des chartes. Elle sert à appuyer et à valoriser une recherche doctorale effectuée en codirection à Paris 1 Panthéon-sorbonne et à l'École des hautes études en sciences sociales.
+Cette application web a été développée dans le cadre du master "Technologies numériques appliquées à l'histoire" de l'École nationale des chartes. Elle sert à appuyer et à valoriser une recherche doctorale effectuée en codirection à Paris 1 Panthéon-sorbonne et à l'École des hautes études en sciences sociales.
 
 
 ## Fonctionnalités 
